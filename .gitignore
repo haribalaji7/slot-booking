@@ -1,0 +1,36 @@
+# Visual Studio & EF Core
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db-shm
+*.db-wal
+# SQLite database file (uncomment if you want to commit a template/seed database, or ignore if it is generated)
+# *.db
+
+# Node / Vite / React (Frontend)
+node_modules/
+Frontend/node_modules/
+dist/
+Frontend/dist/
+dist-ssr/
+Frontend/dist-ssr/
+*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor / System files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.sw?
+Thumbs.db
+.qodo/
